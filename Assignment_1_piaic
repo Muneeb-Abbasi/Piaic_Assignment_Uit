@@ -1,0 +1,61 @@
+students = []
+
+cls1 = {"Name":"Ai",
+         "Marks":
+         {"Quiz1":40,
+         "Quiz2":45,
+         "Mid":50,
+         "Final":55}}
+
+cls2 = {"Name":"CNC",
+         "Marks":
+         {"Quiz1":41,
+         "Quiz2":46,
+         "Mid":51,
+         "Final":56}}
+
+
+
+std_1 = {"Name":"Ali",
+               "class_Ai":cls1,
+                "class_CNC":cls2}
+
+std_2 = {"name":"Zimal",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+
+std_3 = {"Name":"Rayyan",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_4 = {"Name":"Amal",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_5 = {"name":"Kerri",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_6 = {"Name":"Terri",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_7 = {"Name":"Azmat",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_8 = {"Name":"Anas",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_9 = {"Name":"Anil",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+
+std_10 = {"Name":"Azam",
+               "class_AI":cls1,
+                "class_CNC":cls2}
+students.append((std_1, std_2, std_3, std_4, std_5, std_6, std_7, std_8, std_9, std_10))
+
+print(students)
